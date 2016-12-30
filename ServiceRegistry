@@ -1,4 +1,4 @@
-| Environment | Service | Description | Queue Manager | Queue Name | Connection Factory | 
+| Environment | Service | Description | Queue Manager | Queue Name (Alias) | Connection Factory | 
 | ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | 
 | PROD | RTDM | Response | ESBPROD01.QM | LETOBANK.SRV.SRVRTDM.V1.RESP | PROD | 
 | PROD | RTDM | Request | ESBPROD01.QM | LETOBANK.SRV.SRVRTDM.V1.REQ | PROD | 
