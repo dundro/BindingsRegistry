@@ -72,10 +72,6 @@
 | UAT | EventMarketing | Request | LETOBANK.ADP.SRVACRM.ACRM.210.REQ | UAT.CF | 
 | UAT | EventMarketing | Response | LETOBANK.ADP.SRVACRM.ACRM.DEV.RES | UAT.CF | 
 | UAT | EventMarketing | Response | LETOBANK.ADP.SRVACRM.OCRM.210.RES | UAT.CF | 
-| PLIKE | ИНФОТЕКС | Request | LETOBANK.EXT.SIEBEL.INFOTECS.OUT.PLIKE.RQ | PLIKE.CF | 
-| PLIKE | ИНФОТЕКС | Response | LETOBANK.EXT.SIEBEL.INFOTECS.OUT.PLIKE.RS | PLIKE.CF | 
-| UAT | ИНФОТЕКС | Request | LETOBANK.EXT.SIEBEL.INFOTECS.OUT.UAT.RQ | UAT.CF | 
-| UAT | ИНФОТЕКС | Response | LETOBANK.EXT.SIEBEL.INFOTECS.OUT.UAT.RS | UAT.CF | 
 | PROD | Tracking | Reponse  | POCHTABANK.SRVPOSTTRACKING.V1.RESP | PROD |
 | EDU | Tracking | Response | POCHTABANK.SRVPOSTTRACKING.229.RESP | EDU.CF |
 | TEST | Симкарты_Теле2 | Request | POCHTABANK.SIMCARDRECEIVER.212.REQ | TST.CF | 
@@ -85,10 +81,12 @@
 | EDU | Симкарты_Теле2 | Request | POCHTABANK.SIMCARDRECEIVER.229.REQ | UAT.CF | 
 | PRT | Симкарты_Теле2 | Request | POCHTABANK.SIMCARDRECEIVER.248.REQ | UAT.CF | 
 | PROD | Симкарты_Теле2 | Request | POCHTABANK.SIMCARDRECEIVER.V1.REQ | PROD | 
-| DEV | Refinancing | Request | LETOBANK.EXT.SIEBEL.REFINANCING.OUT.DEV.RQ | DEV.CF | 
-| DEV | Refinancing | Response | LETOBANK.EXT.SIEBEL.REFINANCING.OUT.DEV.RS | DEV.CF | 
-| PLIKE | Refinancing | Request | LETOBANK.EXT.SIEBEL.REFINANCING.OUT.PLIKE.RQ | PLIKE.CF | 
-| PLIKE | Refinancing | Response | LETOBANK.EXT.SIEBEL.REFINANCING.OUT.PLIKE.RS | PLIKE.CF | 
+| DEV | Refinancing | Request | SIEBEL.OUT.RQ | DEV.CF | 
+| DEV | Refinancing | Response | SIEBEL.OUT.RS | DEV.CF | 
+| PLIKE | Refinancing | Request | SIEBEL.OUT.RQ | PLIKE.CF | 
+| PLIKE | Refinancing | Response | SIEBEL.OUT.RS | PLIKE.CF | 
+| TEST | Refinancing | Request | SIEBEL.OUT.RQ | TST.CF | 
+| TEST | Refinancing | Response | SIEBEL.OUT.RS | TST.CF | 
 | PROD | SMARTENGINE | Request | POCHTABANK.SMARTENGINE.ADP.RQ | PROD | 
 | PROD | SMARTENGINE | Response | POCHTABANK.SMARTENGINE.ADP.RS | PROD | 
 | PLIKE | SMARTENGINE | Request | POCHTABANK.SMARTENGINE.ADP.RQ | PLIKE.CF | 
