@@ -72,11 +72,11 @@
 | UAT | EventMarketing | Request | LETOBANK.ADP.SRVACRM.ACRM.210.REQ | UAT.CF | 
 | UAT | EventMarketing | Response | LETOBANK.ADP.SRVACRM.ACRM.DEV.RES | UAT.CF | 
 | UAT | EventMarketing | Response | LETOBANK.ADP.SRVACRM.OCRM.210.RES | UAT.CF | 
-| TST | EventMarketing | Request | LETOBANK.SRV.SRVACRM.SERVICE.212.REQ | UAT.CF | 
-| TST | EventMarketing | Request | LETOBANK.SRV.SRVACRM.SALE.212.REQ | UAT.CF | 
-| TST | EventMarketing | Request | LETOBANK.ADP.SRVACRM.ACRM.212.REQ | UAT.CF | 
-| TST | EventMarketing | Response | LETOBANK.ADP.SRVACRM.ACRM.DEV.RES | UAT.CF | 
-| TST | EventMarketing | Response | LETOBANK.ADP.SRVACRM.OCRM.212.RES | UAT.CF | 
+| TST | EventMarketing | Request | LETOBANK.SRV.SRVACRM.SERVICE.212.REQ | PRODLIKE | 
+| TST | EventMarketing | Request | LETOBANK.SRV.SRVACRM.SALE.212.REQ | PRODLIKE | 
+| TST | EventMarketing | Request | LETOBANK.ADP.SRVACRM.ACRM.212.REQ | PRODLIKE | 
+| TST | EventMarketing | Response | LETOBANK.ADP.SRVACRM.ACRM.DEV.RES | PRODLIKE | 
+| TST | EventMarketing | Response | LETOBANK.ADP.SRVACRM.OCRM.212.RES | PRODLIKE | 
 | PROD | Tracking | Reponse  | POCHTABANK.SRVPOSTTRACKING.V1.RESP | PROD |
 | EDU | Tracking | Response | POCHTABANK.SRVPOSTTRACKING.229.RESP | EDU.CF |
 | TEST | Симкарты_Теле2 | Request | POCHTABANK.SIMCARDRECEIVER.212.REQ | TST.CF | 
