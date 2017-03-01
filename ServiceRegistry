@@ -86,7 +86,7 @@
 | PROD | Симкарты_Теле2 | Request | POCHTABANK.SIMCARDRECEIVER.V1.REQ | PROD | 
 | DEV | Tracking | AsyncRequest | ESB.SIEBEL.IN.RQ.UPDCARDSTATE | DEV.CF |
 | DEV | Loyalty | AsyncRequest | ESB.SIEBEL.IN.RQ.UPDAGRLOYALTY | DEV.CF |
-| DEV | Loyalty | AsyncRequest | ESB.SIEBEL.IN.RQ.UPDAGRINFO | DEV.CF |
+| DEV | Srvpayrollext | AsyncRequest | ESB.SIEBEL.IN.RQ.UPDAGRINFO | DEV.CF |
 | DEV | Refinancing | Request | ESB.ADP.SIEBEL.OUT.RQ | DEV.CF | 
 | DEV | Refinancing | Response | ESB.SIEBEL.OUT.RS | DEV.CF | 
 | PROD | SMARTENGINE | Request | POCHTABANK.SMARTENGINE.ADP.RQ | PROD | 
