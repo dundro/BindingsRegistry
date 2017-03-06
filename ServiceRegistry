@@ -1,19 +1,5 @@
 | Environment | Service | Description | Queue Alias | Connection Factory | 
 | ------------ | ------------- | ------------- | ------------- | ------------- | 
-| PROD  | RTDM | Request | LETOBANK.SRV.SRVRTDM.V1.REQ | PROD | 
-| PROD  | RTDM | Response | LETOBANK.SRV.SRVRTDM.V1.RESP | PROD | 
-| PLIKE | RTDM | Request | LETOBANK.SRV.SRVRTDM.V1.REQ | PLIKE.CF | 
-| PLIKE | RTDM | Response | LETOBANK.SRV.SRVRTDM.V1.RESP | PLIKE.CF | 
-| PRT   | RTDM | Request | LETOBANK.SRV.SRVRTDM.V1.REQ | PRT.CF | 
-| PRT   | RTDM | Response | LETOBANK.SRV.SRVRTDM.V1.RESP | PRT.CF | 
-| EDU   | RTDM | Request | LETOBANK.SRV.SRVRTDM.V1.REQ | EDU.CF | 
-| EDU   | RTDM | Response | LETOBANK.SRV.SRVRTDM.V1.RESP | EDU.CF | 
-| UAT   | RTDM | Request | LETOBANK.SRV.SRVRTDM.V1.REQ | UAT.CF | 
-| UAT   | RTDM | Response | LETOBANK.SRV.SRVRTDM.V1.RESP | UAT.CF | 
-| TEST  | RTDM | Request | LETOBANK.SRV.SRVRTDM.V1.REQ | TST.CF | 
-| TEST  | RTDM | Response | LETOBANK.SRV.SRVRTDM.V1.RESP | TST.CF | 
-| DEV   | RTDM | Request | LETOBANK.SRV.SRVRTDM.V1.REQ | DEV.CF | 
-| DEV   | RTDM | Response | LETOBANK.SRV.SRVRTDM.V1.RESP | DEV.CF | 
 | TEST | ПФР | Response | LETOBANK.SRV.SRVPFR.SBLTST.EXT.SIBRESP | TST.CF | 
 | TEST | ПФР | Request | LETOBANK.SRV.SRVPFR.SBLTST.EXT.REQ | TST.CF | 
 | UAT2 | ПФР | Response | LETOBANK.SRV.SRVPFR.SBLUAT2.EXT.SIBRESP | UAT.CF | 
@@ -85,10 +71,6 @@
 | DEV | Tracking | AsyncRequest | ESB.SIEBEL.IN.RQ.UPDCARDSTATE | DEV.CF |
 | DEV | Loyalty | AsyncRequest | ESB.SIEBEL.IN.RQ.UPDAGRLOYALTY | DEV.CF |
 | DEV | Srvpayrollext | AsyncRequest | ESB.SIEBEL.IN.RQ.UPDAGRINFO | DEV.CF |
-| DEV | Refinancing | Request | ESB.ADP.SIEBEL.OUT.RQ | DEV.CF | 
-| DEV | Refinancing | Response | ESB.SIEBEL.OUT.RS | DEV.CF | 
-| PROD | Refinancing | Request | SIEBEL.REFINANCING.OUT.RQ | PROD | 
-| PROD | Refinancing | Response | SIEBEL.REFINANCING.OUT.RS | PROD | 
 | PROD | SMARTENGINE | Request | POCHTABANK.SMARTENGINE.ADP.RQ | PROD | 
 | PROD | SMARTENGINE | Response | POCHTABANK.SMARTENGINE.ADP.RS | PROD | 
 | PLIKE | SMARTENGINE | Request | POCHTABANK.SMARTENGINE.ADP.RQ | PLIKE.CF | 
