@@ -1,5 +1,5 @@
 #This file is used by the JNDI FSContext.
-#Fri Oct 13 13:14:47 MSK 2017
+#Fri Oct 13 17:26:22 MSK 2017
 TRTG.CF/RefAddr/67/Encoding=String
 LETOBANK.SRV.SRVPFR.V1.EXT.SIBRESP/RefAddr/0/Type=VER
 SIEBEL.ADP.PLCARD.RESP/RefAddr/2/Type=EXP
@@ -256,7 +256,7 @@ PREPROD.CF/RefAddr/24/Type=LA
 PRT.CF/RefAddr/93/Encoding=String
 UAT.CF/RefAddr/12/Content=0
 PREPROD.CF/RefAddr/3/Type=QMGR
-GNST.CF/RefAddr/103/Content=172.19.2.223(4414)
+GNST.CF/RefAddr/103/Content=172.19.2.223(4017)
 LETOBANK.SRV.SRVPFR.EDU.EXT.SIBRESP/RefAddr/0/Content=7
 ESB.ADP.SIEBEL.IN.RS/RefAddr/21/Type=RCNV
 POCHTABANK.SIMCARDRECEIVER.229.REQ/FactoryName=com.ibm.mq.jms.MQQueueFactory
@@ -2646,7 +2646,7 @@ ESB.SIEBEL.IN.RQ.UPLOADCLIENTPHOTO/RefAddr/19/Type=RCCS
 ESB.FACTURA.IN.RQ.AGREVENT/RefAddr/13/Type=MDCTX
 LETOBANK.SRV.SRVGNS.TEST.REQ/RefAddr/7/Content=273
 PEARL.CF/RefAddr/70/Content=0
-GNST.CF/RefAddr/30/Content=172.19.2.223(4414)
+GNST.CF/RefAddr/30/Content=172.19.2.223(4017)
 ESB.SIEBEL.IN.RQ.UPLOADCLIENTPHOTO/RefAddr/5/Content=0
 ESB.ADP.SIEBEL.OUT.RQ/RefAddr/21/Type=RCNV
 TST.CF/RefAddr/12/Encoding=String
@@ -4359,7 +4359,7 @@ PROD/RefAddr/36/Type=XMSC_WMQ_PROCESS_DURATION
 DEV.CF/RefAddr/36/Content=[B@738886d2
 ESB.ADP.SIEBEL.IN.RS/RefAddr/3/Encoding=String
 PROD/RefAddr/21/Encoding=String
-GNST.CF/RefAddr/5/Content=4414
+GNST.CF/RefAddr/5/Content=4017
 GNST.CF/RefAddr/25/Encoding=String
 TST.CF/RefAddr/4/Content=dc2-esbprod03
 LETOBANK.SRV.SRVPFR.EDU.EXT.SIBRESP/RefAddr/0/Encoding=String
@@ -8055,7 +8055,7 @@ TRTG.CF/RefAddr/88/Type=XMSC_WMQ_MESSAGE_RETENTION
 ESBRTDM.ADP.SIEBEL.OUT.RQ/RefAddr/8/Encoding=String
 ESB.FW.PROD.CF/RefAddr/26/Encoding=String
 TEST12/RefAddr/75/Content=0
-GNST.CF/RefAddr/36/Content=[B@a8856343
+GNST.CF/RefAddr/36/Content=[B@69d384cc
 POCHTABANK.SMARTENGINE.ADP.RQ/RefAddr/11/Type=MDR
 TRTG.CF/ClassName=com.ibm.mq.jms.MQQueueConnectionFactory
 LETOBANK.SRV.SRVPFR.SBLDEV.EXT.SIBRESP/RefAddr/1/Type=DESC
